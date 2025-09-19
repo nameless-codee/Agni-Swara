@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agniswara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wdth,wght@0,5..1200,105.1,300..900;1,5..1200,105.1,300..900&display=swap&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">AgniSwara</div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+                <button class="user-btn"><i class="fas fa-user"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Leap forward for an amazing <span>music journey</span></h1>
+                <p class="excerpt">A deep dive into blissful music performances and the art of music. The band Agniswara brings you an opportunity to experience the music of the gods.</p>
+            </div>
+            <div class="img-wrapper">
+                <img src="https://www.coverbandcentral.com/wp-content/uploads/2020/09/band_rehearsal_1800.jpg" alt="band rehearsal">
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container content-grid">
+            <!-- Articles Grid -->
+            <div class="articles">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Latest Events</h2>
+                </div>
+                <div class="articles-grid">
+                    <!-- Article Card 1 -->
+                    <article class="article-card">
+                        <div class="article-image" style="background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AC9h4norJGte519NqZOdbHgU9oW_6oUogPyrDEYJW-R7F-oowFMp_BpCDB1Kbupp3SEXxh-VjoubiuKwH7V-fGL91kcTxok2i7vmhnry3HS1KqSpVrYV_RM6ugst54Q64OJi8ymko5mG=w325-h218-n-k-no');"></div>
+                        <div class="article-content">
+                            <span class="category">Sing Alongs</span>
+                            <h3>Kailasa</h3>
+                            <p>Our first time experience in a stand along singing event at Kailasa near Bambalapitiya.</p>
+                            <div class="article-meta">
+                                <span class="location">Colombo - 04 (Bambalapitiya)</span>
+                                <span class="date">Jun 04, 2025</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Article Card 2 -->
+                    <article class="article-card">
+                        <div class="article-image" style="background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AC9h4no4WrZ3gwUDMifUsQ_Bl7iY2_1b-QFmDIb71seP7m37g4z-vhEXvs8Gs1o4_r8cf72boYqC-kuMRTGlSLHn4XYPiwsslPMEgOTKclS-ihk--4ULlnfmQq5W9-vXB95jcCU1gEpG=s1360-w1360-h1020-rw');"></div>
+                        <div class="article-content">
+                            <span class="category">Events</span>
+                            <h3>Marriage Function</h3>
+                            <p>Our first small staged event at a marriage function in Attidiya.</p>
+                            <div class="article-meta">
+                                <span class="location">Attidiya</span>
+                                <span class="date">Jan 06, 2025</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- More article cards would go here -->
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination">
+                    <button class="page-btn active">1</button>
+                    <button class="page-btn">2</button>
+                    <button class="page-btn">3</button>
+                    <span class="ellipsis">...</span>
+                    <button class="page-btn">10</button>
+                    <button class="next-btn">Next <i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-widget">
+                    <h3>Popular Tags</h3>
+                    <div class="tags">
+                        <a href="#" class="tag">Sing Alongs</a>
+                        <a href="#" class="tag">Events</a>
+                        <a href="#" class="tag">Wedding</a>
+                        <a href="#" class="tag">Gigs</a>
+                        <a href="#" class="tag">Projects</a>
+                        <a href="#" class="tag">Performances</a>
+                        <a href="#" class="tag">Albums</a>
+                        <a href="#" class="tag">Covers</a>
+                        <a href="#" class="tag">Mixtapes</a>
+                        <a href="#" class="tag">Mashups</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-widget newsletter">
+                    <h3>Subscribe to our newsletter</h3>
+                    <p>Get the latest news and updates delivered to your inbox.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Recent Posts</h3>
+                    <ul class="recent-posts">
+                        <li>
+                            <a href="#">Happy Street</a>
+                            <span class="post-date">Aug 06, 2025</span>
+                        </li>
+                        <li>
+                            <a href="#">Mist of Kalki</a>
+                            <span class="post-date">Feb 27, 2025</span>
+                        </li>
+                        <li>
+                            <a href="#">MaRadha</a>
+                            <span class="post-date">Sep 12, 2024</span>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Agniswara</div>
+                <p>© 2023 Agniswara - A music blog for music lovers, by music lovers.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/the_agni_swara_band?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-spotify"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
