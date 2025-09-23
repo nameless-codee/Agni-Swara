@@ -1,0 +1,14 @@
+.content-grid {
+    grid-template-columns: 1fr !important;
+}
+
+.sidebar {
+    padding-top: 1rem;
+    position: static !important;
+    grid-row: 1 !important;
+}
+
+.sidebar-widget {
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+}
